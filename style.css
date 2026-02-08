@@ -24,6 +24,7 @@ body{
  border-radius: 1rem;
  overflow: auto;/* it will show the scroll bar only when needed*/
  color: black;
+ padding:0 1.5rem 0 1.5rem;
 }
 .musicplayer{
   background-color: rgb(0, 0, 0);
@@ -125,7 +126,7 @@ a{
 .STICKY-NAV{
   position: sticky;
   top: 0;
-  background-color: gray;
+  background-color: rgb(23, 23, 23);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -149,4 +150,31 @@ a{
   .hide{
     display: none;
   }
+}
+
+.card{
+  background-color: #232323;
+  width: 150px;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-img{
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.card-title{
+  font-weight: 600;
+  color: rgb(253, 253, 253);
+}
+.card-info{
+  color: rgb(253, 253, 253);
+  font-size: 0.85rem;
+  opacity: 0.8;
 }
